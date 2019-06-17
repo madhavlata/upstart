@@ -2929,6 +2929,7 @@ a.dropbtn {
     background-color: #f39c12;
     color: #222;
     border-radius: 8px 8px 0px 0px;
+    border-bottom: #111 solid 0px;
 }
 
 .accordion-container .content {
