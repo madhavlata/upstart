@@ -134,20 +134,24 @@ p.lead {
     font-family: 'Oswald', sans-serif;
 }
 
-.font-dark {
-    color: #222;
+.font-darker {
+    color: #222 !important;
 }
 
 .font-white {
-    color: white;
+    color: white !important;
 }
 
 .font-grey {
-    color: #ddd;
+    color: #ddd !important;
+}
+
+.font-dark {
+    color: #333 !important;
 }
 
 .font-orange {
-    color: #f39c12;
+    color: #f39c12 !important;
 }
 
 .font-60 {
@@ -780,24 +784,30 @@ hr.bold {
 }
 
 .bg-white {
-    background: #fff;
+    background: #fff !important;
     color: #000;
 }
 
 .bg-grey {
-    background: #bbb;
+    background: #bbb !important;
     color: #000;
 }
 
 .bg-orange {
-    background: #eaa22c;
+    background: #eaa22c !important;
     color: #111;
 }
 
 .bg-dark {
-    background: #333;
+    background: #333 !important;
     color: #eee;
 }
+
+.bg-darker {
+    background: #222 !important;
+    color: #eee;
+}
+
 
 .p-top-20 {
     padding-top: 200px;
@@ -852,7 +862,7 @@ hr.bold {
     background-image: url("../img/blackbg.jpg");
     background-repeat: round;
     background-position: center;
-    background-color: midnightblue;
+    background-color: #f39c12;
     max-width: 100%;
     overflow-x: hidden;
     min-height: 80%;
@@ -860,6 +870,20 @@ hr.bold {
 
 .bg10 {
     background-image: url("../img/bg10.png");
+}
+
+.bg6 {
+    background-image: url("../img/bg6.jpeg");
+    background-attachment: fixed;
+}
+
+.bg5 {
+    background-image: url("../img/bg5.jpeg");
+    background-attachment: fixed;
+}
+
+.bg4 {
+    background-image: url("../img/bg4.jpeg");
 }
 
 .bg3 {
@@ -1951,58 +1975,6 @@ footer .social-widget ul.team-social li a {
 
 .pricing-box.white .pricing-footer {
     background: #f8f8f8;
-}
-
-.page-scroll .btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.page-scroll .btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
-
-@-webkit-keyframes pulse {
-    0 {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-@-moz-keyframes pulse {
-    0 {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -moz-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
 }
 
 #text {
