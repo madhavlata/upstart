@@ -1,0 +1,112 @@
+
+    <section class="cd-faq row">
+        <div class="cd-faq-items">
+            <ul id="basics" class="cd-faq-group list-unstyled">
+                <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">What should I do to participate in UPSTART'19?</a>
+                    <div class="cd-faq-content">
+                        <p>Submission of UPSTART Executive Summary counts as registration for the event. The shortlisted
+                            teams will be required to register for'E-Summit'19 later.</p>
+                    </div>
+                </li>
+                <!-- <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">Why should I participate in UPSTART'19 Delhi Edition?</a>
+                    <div class="cd-faq-content">
+                        <p>There is NO separate registration fee for the UPSTART'19 Delhi Edition. Only the shortlisted teams
+                            will be later required to pay Rs.300 per person as participation fee.</p>
+                    </div>
+                </li> -->
+                <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">What is the registration/participation fee for
+                        UPSTART'19 Kanpur Edition?</a>
+                    <div class="cd-faq-content">
+                        <p>There is NO separate registration/participation fee. The shortlisted teams will be required
+                            to register forE-Summit'19 later.</p>
+                    </div>
+                </li>
+                <!-- <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">What is the registration/participation fee for UPSTART'19 Delhi Edition?</a>
+                    <div class="cd-faq-content">
+                        <p>There is NO separate registration fee for the UPSTART'19 Delhi Edition. Only the shortlisted teams
+                            for UpStart Delhi Edition have to pay a participation amount of Rs.300 per person.</p>
+                    </div>
+                </li> -->
+                <!-- <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">What is the last date for submission for Delhi Edition?</a>
+                    <div class="cd-faq-content">
+                        <p>The last date for submitting/editing your B-Plan is 15th July, 2018</p>
+                    </div>
+                </li> -->
+                <!-- <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">Are there any separate categories for UpStart Delhi Edition?</a>
+                    <div class="cd-faq-content">
+                        <p>No, there are no categories for UpStart Delhi Edition. UpStart Biz and UpStart Socha are categories
+                            of Kanpur Edition Only.</p>
+                    </div>
+                </li> -->
+                <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">How do I decide the category for my B-Plan?</a>
+                    <div class="cd-faq-content">
+                        <p>Refer to the rules and eligibility criteria of UPSTART'19.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">Can I submit any additional document that has not being
+                        asked for?</a>
+                    <div class="cd-faq-content">
+                        <p>No, we do not accept any other documents. The judging will be done strictly on the basis of
+                            documents which have been asked for.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">I have registered more than once for the same entry.
+                        What should I do?</a>
+                    <div class="cd-faq-content">
+                        <p>-> A single registration should be done for a single entry. If you have registered more than
+                            once, please send an e-mail to events@ecelliitk.com mentioning information about all the
+                            registrations made for the entry.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">How is confidentiality of the B-Plan maintained?</a>
+                    <div class="cd-faq-content">
+                        <p>The entries for UPSTART’18 are judged by reputed VC’s, established entrepreneurs and
+                            industrialists who believe in promoting entrepreneurship. Your entry is only viewed by the
+                            judge. At no stage is an organizer permitted to view
+                            your executive summary/ B-Plan. Presentations are closed door.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">What will be judging criteria?</a>
+                    <div class="cd-faq-content">
+                        <p>-> Refer to the Judging Criteria for UPSTART’18. Judging will be done by a group of reputed
+                            entrepreneurs, Venture Capitalists and experienced people from the industry.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">Does my business plan have to be technology
+                        specific?</a>
+                    <div class="cd-faq-content">
+                        <p>->No, we encourage the entry of all well-developed business plans.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">How does the mentoring program work?</a>
+                    <div class="cd-faq-content">
+                        <p>-> Top performing teams of both the editions will be assigned a mentor. The teams shall then
+                            have a brainstorming session with the assigned mentors wherein they can discuss any aspect
+                            of their business which demands guidance and
+                            help.
+                        </p>
+                    </div>
+                </li>
+                <!-- <li>
+                    <a class="cd-faq-trigger" href="faq.html#0">When can I request for a Mentor?</a>
+                    <div class="cd-faq-content">
+                        <p>->A mentor will be allotted to all the teams that qualify for the main round.</p>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </section>

@@ -2901,6 +2901,8 @@ a.dropbtn {
     margin-top: 7px;
 }
 
+
+
 .accordion:hover {
     border-bottom: #111 solid 0px;
     background-color: #f39c12;
@@ -2913,6 +2915,8 @@ a.dropbtn {
     border-radius: 8px 8px 0px 0px;
     border-bottom: #111 solid 0px;
 }
+
+
 
 .accordion-container .content {
     font-size: 16px;
@@ -2935,6 +2939,27 @@ a.dropbtn {
 .activetoggle:after {
     content: "\2796";
     color: #f39c12 !important;
+}
+
+/* // Extra for FAQs Sectio */
+
+.bg-grey .accordion {
+    background-color: #333;
+    color: #ccc;
+}
+
+.bg-grey .accordion:hover {
+    background-color: #f39c12;
+    color: #333;
+}
+
+.bg-grey .activetoggle {
+    background-color: #f39c12;
+    color: #333;
+}
+
+.bg-grey .accordion-container {
+    width: 90%;
 }
 
 @media only screen and (max-width: 768px) {
