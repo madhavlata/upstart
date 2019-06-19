@@ -860,7 +860,8 @@ hr.bold {
 /* Main land */
 .land {
     background-image: url("../img/blackbg.jpg");
-    background-repeat: round;
+    background-size: 102% 102%;
+    background-repeat: no-repeat;
     background-position: center;
     background-color: #f39c12;
     max-width: 100%;
