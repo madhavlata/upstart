@@ -146,6 +146,10 @@ p.lead {
     color: #ddd !important;
 }
 
+.font-greyer {
+    color: #555 !important;
+}
+
 .font-dark {
     color: #333 !important;
 }
@@ -713,7 +717,10 @@ hr.bold {
 .margintop-50 {
     margin-top: 50px !important;
 }
-
+section {
+    max-width: 100vw;
+    overflow: hidden;
+}
 .home-section {
     padding-top: 60px;
     display: block;
@@ -789,7 +796,7 @@ hr.bold {
 }
 
 .bg-grey {
-    background: #bbb !important;
+    background: rgb(187, 175, 153) !important;
     color: #000;
 }
 
@@ -1725,13 +1732,13 @@ form.search-form input:focus {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-footer {
-    background-color: #111;
-}
 
 footer {
+    background-color: #111;
     text-align: center;
     padding: 25px 0;
+    max-width: 100vw;
+    overflow: hidden !important;
 }
 
 footer p {
@@ -2114,6 +2121,19 @@ a.gmap-btn:focus {
     -o-animation-duration: 0.3s;
     animation-duration: 0.3s;
 }
+.asso-cat {
+    padding: 0px 30px;
+}
+.asso-img {
+    padding-bottom: 10px;
+}
+.asso-img img {
+    max-width: 90%;
+    max-height: 300px;
+}
+.asso-cont {
+    text-align: left;
+}
 
 @-webkit-keyframes blink {
     50% {
@@ -2419,6 +2439,9 @@ a.btn:focus {
 
     #header ul li {
         display: block;
+    }
+    .asso-cont {
+        text-align: center;
     }
 
 }
