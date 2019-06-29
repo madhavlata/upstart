@@ -175,7 +175,10 @@ p.lead {
 }
 
 .font-20 {
-    font-size: 20px;
+    font-size: 20px !important;
+}
+.lh-30 {
+    line-height: 30px !important;
 }
 
 .font-15 {
@@ -645,7 +648,9 @@ hr.bold {
     margin: 0 auto;
     margin-bottom: 10px;
 }
-
+.display-none {
+    display: none;
+}
 .marginbot-0 {
     margin-bottom: 0 !important;
 }
@@ -2966,6 +2971,7 @@ a.dropbtn {
 }
 
 /* // Extra for FAQs Sectio */
+
 
 .bg-grey .accordion {
     background-color: #333;
