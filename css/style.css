@@ -3016,6 +3016,11 @@ a.dropbtn {
     width: 90%;
 }
 
+.contact-name {
+    color: #f39c12;
+    font-size: 17px;
+}
+
 @media only screen and (max-width: 768px) {
     .accordion-container {
         float: none;
