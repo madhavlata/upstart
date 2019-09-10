@@ -2993,13 +2993,13 @@ a.dropbtn {
 @media only screen and (min-width: 1024px) {
     .results-fit {
         height: 480px;
-        width: 480px;
+        /* width: 480px; */
     }
 }
 
 @media only screen and (max-width: 768px) {
     .results-fit {
         height: 290px;
-        width: 290px;
+        /* width: 290px; */
     }
 }
