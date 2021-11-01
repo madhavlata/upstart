@@ -2330,6 +2330,123 @@ a.btn:focus {
     background: #f39c12;
 }
 
+#partners img {
+    width:240px;
+    margin:auto;
+}
+
+#partners {
+    background: #FFFAF2;
+}
+
+.partner-div {
+    margin: 0 75px 0 75px;
+}
+
+.upstart-flow {
+    font-style:normal;
+    height:fit-content;
+    padding: 10px;
+    width:20%;
+    margin:auto;
+    background: #FFA500;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.flow-box {
+    font-family:"Lato";
+    height:fit-content;
+    font-size:16px;
+    padding: 15px;
+    background: #FFEFD1;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.flow-box-content {
+    margin-top:25px;
+    width:124%;
+    position:relative;
+    left:-12%;
+    font-family: "Lato";
+    height: 20rem !important;
+    color:black;
+    font-size:15px;
+    padding: 12px;
+    line-height: 25px;
+    background: rgba(255, 239, 209, 0.5);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.flow-head {
+    margin-bottom:0;
+}
+
+.flow {
+    padding:0px 25px 60px 25px;
+    justify-content: center;
+}
+
+.img-flow {
+    max-width: 100%;
+}
+
+@media (max-width: 991px) {
+    .upstart-flow {
+        width:40%;
+    }
+    .flow {
+        margin:auto;
+        padding-bottom:10px;
+    }
+    .flow-box {
+        width:80%;
+        margin:auto;
+    }
+    .flow-box-content {
+        width: 90%;
+        margin:auto;
+        margin-top:20px;
+        position:relative;
+        left:0;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 990px) {
+    .flow-box {
+        width:60%;
+    }
+    .flow-box-content {
+        width:70%;
+    }
+}
+
+@media (max-width: 328px) {
+    .flow-box-content {
+        width:100%;
+    }
+    .flow {
+        padding:4px;
+    }
+}
+
+@media (max-width:266px) {
+    .flow-box-content {
+        padding:0;
+    }
+    .upstart-flow {
+        width:60%;
+    }
+}
+
+@media (max-width:1200px) {
+    .img-flow {
+        display: none;
+    }
+}
+
 
 /* Media queries */
 
