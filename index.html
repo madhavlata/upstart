@@ -1,628 +1,1046 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upstart'22</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/contact.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 900px)"
+      href="CSS/mobile.css"
+    />
+    <link rel="shortcut icon" href="/img/fi (1).png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2f9915192b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="expires" content="0">
-    <title>UpStart 2022 | E-Cell IIT Kanpur</title>
-    <!-- SEO queries -->
-    <meta name="description"
-        content="Upstart is an start-up, business model competition organised annually by Entrepreneurship Cell IIT Kanpur">
-    <meta name="keywords"
-        content="Upstart, Upstart'19, Biz, Socha, Upstart Delhi, Upstart Bangalore, E-Cell IITK,Entrepreneurship Cell, E-Cell IITK, ECell IITK, IIT Kanpur, IITK, IIT">
-    <meta name="author" content="E-Cell">
-    <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0" />
-    <meta http-equiv="cache-control" content="max-age=0" />
-    <meta http-equiv="expires" content="0" />
-    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
-    <meta http-equiv="pragma" content="no-cache" />
-
-    <!---Open Graph metas for social media=======================================-->
-    <meta property="og:image" content="img/og_image.jpeg" />
-    <meta property="og:title" content="Upstart 2022 | E-Cell" />
-    <meta property="og:url" content="https://upstart.ecelliitk.org/" />
-    <meta property="og:description"
-        content="Upstart is an start-up, business model competition organised annually by Entrepreneurship Cell IIT Kanpur" />
-
-    <meta property="twitter:description"
-        content="Upstart is an start-up, business model competition organised annually by Entrepreneurship Cell IIT Kanpur" />
-    <meta name="twitter:image" content="img/og_image.jpeg" />
-    <meta name="twitter:title" content="Upstart 2022 | E-Cell IITK" />
-    <meta property="twitter:url" content="https://upstart.ecelliitk.org/" />
-
-
-    <link rel="shortcut icon" type="image/png" href="img/fi.png" />
-
-
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-
-    <link href="css/animate.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet">
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-
-    <div class="overlay || js-loader">
-        <span class="loader">
-            <span class="loader__rocket">
-                <svg width="164" height="164">
-                    <circle class="loader__circle" cx="78" cy="82" r="77" transform="rotate(-90, 80, 80)" />
-                </svg>
-                <i class="loader__icon">
-                    <svg class="loader__svg">
-                        <polygon
-                            points="21 26.24 15.15 21.04 15.15 6.22 10.51 0 5.86 6.22 5.86 17.46 5.85 21.04 0 26.24 0 36 5.86 30.79 5.86 32.39 10.51 32.39 15.15 32.39 15.15 30.8 21 36 21 26.24" />
-                    </svg>
-                </i>
-            </span>
-        </span>
+  <body>
+    <!-- Scroll top to bottom  -->
+    <div class="scroll flex-center">
+      <i class="fas fa-arrow-up"></i>
     </div>
 
-    <div id="navigation" style="height:55px !important">
-        <nav class="navbar navbar-custom" role="navigation">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-9 col-sm-4 col-md-3 mob-logo">
-                        <div class="row">
-                            <div class="site-logo">
-                                <a href="index.html">
-                                    <img style="height: 50px;padding:3px 5px 0px 5px;" src="img/upstartlogo.png"
-                                        alt="upstart 2018" />
-                                </a>
-                                <a href="http://www.ecelliitk.org">
-                                    <img style="height: 50px;padding:3px 5px 0;" src="img/iitk_logo.png"
-                                        alt="IIT Kanpur" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-3 col-sm-8 col-md-9 mob-menu">
-                        <div class="row">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                                    <i class="fa fa-bars"></i>
-                                </button>
-                            </div>
+    <!-- ------Home------ -->
+    <nav class="navbar background navback hnavresp">
+      <a href="/"><img src="img/logo.png" alt="" class="src" /></a>
+      <a href="index.html"
+        ><img
+          src="img/UpstartLogo2-01 (2).png"
+          alt=""
+          style="margin: 0; width: 200px"
+          class="src"
+      /></a>
+      <div class="navlinks navlist vclassresp">
+        <ul>
+          <div class="nav-close-btn"></div>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#Nationals">Nationals</a></li>
+          <li><a href="#Edge">Edge</a></li>
+          <li><a href="#incentive">Incentives</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+          <li class="navbutton">
+            <a href="https://forms.gle/MJec73BVUh8zCyJe7" target="_blank"
+              >Register</a
+            >
+          </li>
+        </ul>
+      </div>
 
-                            <div class="collapse navbar-collapse" id="menu">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <!-- <li class="d-lg">
-                                        <div class="dropdown ">
-                                            <a class="dropbtn">Nationals <i class="fa fa-caret-down"></i></a>
-                                            <div class="dropdown-content">
-                                                <a href="delhi.html">Delhi</a>
-                                                <a href="bangalore.html">Bangalore</a>
-                                            </div>
-                                        </div>
-                                    </li> -->
-                                    <!-- <li class="d-sm">
-                                        <a href="delhi.html">Delhi</a>
-                                    </li>
-                                    <li class="d-sm">
-                                        <a href="bangalore.html">Bangalore</a>
-                                    </li> -->
-                                    <!-- <li>
-                                        <a href="https://www.ecelliitk.org/esummit/">E-Summit'19</a>
-                                    </li> -->
-                                    <li>
-                                        <a href="associates.html">Associations</a>
-                                    </li>
-                                    <li>
-                                        <a href="incentives.html">Incentives</a>
-                                    </li>
-                                    <li class="bg-orange ">
-                                        <a class="font-dark" href="#results">Upstart'21</a>
-                                    </li>
-                                </ul>
-                            </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </nav>
-    </div>
-    <div id="navigation-below"></div>
-
-
-    <section class="land">
-        <div class="row hidden-sm hidden-xs">
-            <div class="col-lg-6 text-right maintitle">
-                <p class="upstart-logo"><span class="u">U</span>PSTART</p>
-                <br>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSey9lITbgAwy8Ln4nV7tyGIfYuJdmTily5bwzD2vFjUsGsNug/viewform" class="subtitle">
-                    <p class="sub">Apply Now</p>
-                </a>
-                <!-- <a href="./socha.html" class="subtitle">
-                    <p class="sub">SoCha</p>
-                </a> -->
-                <div class="maindates lh-30">
-                    <!-- <p class="date text-right">
-                        <span class="font-30 font-oswald font-grey font-bold">Delhi:</span>
-                        <span class="font-30 font-oswald">20th July </span>
-                        <span class="font-30  font-orange font-bold">2022</span>
-                    </p>
-                    <p class="date text-right">
-                        <span class="font-30 font-oswald font-grey font-bold">Bangalore:</span>
-                        <span class="font-30 font-oswald">27th July </span>
-                        <span class="font-30  font-orange font-bold">2022</span>
-                    </p> --><br>
-                    <p class="date text-right">
-                        <span class="font-30 font-oswald font-grey font-bold">Kanpur:</span>
-                        <span class="font-30 font-oswald">15-16th January </span>
-                        <span class="font-30  font-orange font-bold">2022</span>
-                        <br>
-                        <span class="font-20 font-oswald">Last Date to Register: 18th December'21 </span>
-                    </p>
-                </div>
-                <!-- <a href="#results" class="subtitle">
-                    <p class="sub font-20 lh-30">
-                        VIEW RESULTS
-                    </p>
-                </a> -->
-
-            </div>
-            <div class="col-lg-6 rocket">
-                <img src="./img/mainrocket2.png" alt="Upstart Representation">
-            </div>
-
+    <section class="header" id="home" style="padding: 0">
+      <div class="main">
+        <div class="left">
+          <h1><span class="U">U</span>PSTART</h1>
+          <p>The Indian Business <br />Model Competition</p>
+          <a
+            target="_blank"
+            href="https://forms.gle/MJec73BVUh8zCyJe7"
+            class="herobtn"
+            >Register Now</a
+          >
         </div>
-        <div class="hidden-lg">
-            <div class="col-sm-12 text-centre rocket">
-                <img src="./img/mainrocket2.png" alt="Upstart Representation">
-            </div>
-            <div class="col-sm-12 text-center maintitle">
-                <p class="upstart-logo"><span class="u">U</span>PSTART</p>
-                <a href="#" class="subtitle">
-                    <p class="sub">FINALE</p>
-                </a>
-                <!-- <a href="./socha.html" class="subtitle">
-                    <p class="sub">SoCha</p>
-                </a> -->
-            </div>
-            <div class="col-sm-12 maindates">
-                <p class="date text-center">
-                    <!-- <span class="font-30 font-oswald font-grey font-bold">Delhi:</span>
-                    <span class="font-30 font-oswald">20th July </span>
-                    <span class="font-30  font-orange font-bold">2022</span>
-                    <br>
-                    <span class="font-30 font-oswald font-grey font-bold">Banglore:</span>
-                    <span class="font-30 font-oswald">27th July </span>
-                    <span class="font-30  font-orange font-bold">2022</span> -->
-                    <br>
-                    <span class="font-30 font-oswald font-grey font-bold">Kanpur:</span>
-                    <span class="font-30 font-oswald">15-16th January </span>
-                    <span class="font-30  font-orange font-bold">2022</span>
 
-                </p>
-                <!-- <div class="col-sm-12 text-center maintitle">
-                    <a href="#results" class="subtitle">
-                        <p class="sub font-20 lh-30">
-                            VIEW RESULTS
-                        </p>
-                    </a> -->
-                </div>
-            </div>
-
+        <div class="right">
+          <img src="img/businessbg.png" alt="" />
         </div>
+      </div>
+      <div class="arrow">
+        <a href="#about" class="scroll-down"
+          >Scroll Down <i class="fas fa-arrow-down"></i
+        ></a>
+      </div>
     </section>
-    <!-- /Section: intro -->
-    <!-- Section: services -->
-    <section id="incent" class="home-section color-dark bg-grey">
-        <div class="container marginbot-20">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
-                        <div class="section-heading text-center">
-                            <h2 class="h-bold font-oswald">Why upstart?</h2>
-                            <div class="divider-header"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
+    <!-- ------About-------- -->
 
+    <section class="about" id="about">
+      <h1>About</h1>
+      <div class="underline"></div>
+      <div class="cols">
+        <div class="leftcol">
+          <img src="img/background.png" alt="" />
         </div>
-        <div class="text-justify">
-            <div class="container">
-                <div class="row  marginbot-30">
-                    <div class="col-xs-10 col-xs-offset-1">
-                        <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                            <div class="service-box1">
-                                <div class="service-desc">
-                                    <p class="lead centre-incubate">An event that caters to the budding startups of our country, Upstart - The Indian Business Model Competition - stands apart from the conventional Start-up Competition and 10-minute pitching. We strive to give our participants more than just the prize. The start-ups go through multiple rounds of screening, which are essentially brainstorming sessions at different levels, and face to face mentoring. Finalists get to develop their ideas and hone their business plans under the mentorship of a panel of mentors.</p>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="rightcol">
+          <p class="para1">
+            An event that caters to the budding startups of our country, UpStart
+            - The Indian Business Model Competition stands apart from the
+            conventional Startup Competition and ten-minute pitching - we strive
+            to give our participants more than just the prize.
+          </p>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-desc">
-                                        <h4 class="font-oswald centre-incubate flow-head">
-                                            <div class="upstart-flow">
-                                                Upstart
-                                            </div>
-                                            <img class="img-flow" src="img/arrow-flow.png">
-                                        </h4>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-3 flow">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-desc">
-                                        <div class="font-oswald centre-incubate">
-                                            <div class="flow-box">
-                                                HealthCare
-                                            </div>
-                                            <div class="flow-box-content">
-                                                With the ever growing need of healthcare technologies in the ongoing pandemic era, this track provides opportunities to explore the possibilities of combining and collaborating Health with Entrepreneurship.
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-3 flow">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-desc">
-                                        <div class="font-oswald centre-incubate">
-                                            <div class="flow-box">
-                                                Cybersecurity
-                                            </div>
-                                            <div class="flow-box-content">
-                                                Protecting information and data tops the priority list today, which can be delivered through the blend of entrepreneurship and cybersecurity.
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-3 flow">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-desc">
-                                        <div class="font-oswald centre-incubate">
-                                            <div class="flow-box">
-                                                FinTech
-                                            </div>
-                                            <div class="flow-box-content">
-                                                Entrepreneurs share their views/ ideas related to the development in Fintech. Presenting a worthy idea to contribute to this development promises CASH PRIZES worth Rs. 6 lakhs.
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-3 flow">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-desc">
-                                        <div class="font-oswald centre-incubate">
-                                            <div class="flow-box">
-                                                Upstart Biz
-                                            </div>
-                                            <div class="flow-box-content">
-                                                Upstart Biz is a business plan that converts budding ideas into successful businesses. It is a general track that accommodates all innovative ideas across all domains.
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-6">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-desc">
-                                        <h4 class="font-oswald centre-incubate font-bold">
-                                            Win prizes worth 20 lakhs
-                                        </h4>
-                                        <p class=" centre-incubate">
-                                            Upstart top 3 winners get assured cash prizes, AWS Credits, OYO Flexi passes etc. Win and celebrate your startup with these amazing prizes!                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-desc">
-                                        <h4 class="centre-incubate font-oswald font-bold">
-                                            A Call From The VCs
-                                        </h4>
-                                        <p class="centre-incubate">
-                                            Top 3 teams to skip the pile of decks and get a chance to directly get funded from top ventures in the industry. Unleash your potential and get funded. No more waiting! 
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-6">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-desc">
-                                        <h4 class="font-oswald centre-incubate font-bold">
-                                            Incubate & Execute
-                                        </h4>
-                                        <p class=" centre-incubate">
-                                            Through UPSTART, the winner gets an incubation
-                                            opportunity at <b>SIDBI
-                                                Innovation & Incubation Centre (SIIC)</b> at IIT
-                                            Kanpur, set up in
-                                            collaboration with Small Industries Development Bank of
-                                            India (SIDBI).
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-desc">
-                                        <h4 class="centre-incubate font-oswald font-bold">
-                                            Step towards ‘Unicorn’ dream
-                                        </h4>
-                                        <p class="centre-incubate">
-                                            Get your ideas seeded from fellow startup Founders, Venture Capitalists to Visionaries. Interact with the big names in the industry during the competition followed by the same in the networking dinner, and take your startup to the next ultimate level! 
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <!-- <a href="incentives.html" class="btn btn-skin btn-lg btn-block width-40">Know more</a> -->
-                    <!-- <div class="col-xs-12 col-sm-5 col-md-4 center padd" style="width: 100%;
-          align-items: center;
-          display: flex;
-          flex-direction: column;
-          margin-top: 50px;
-          justify-content: center;">
-            <h5>Title Sponsor:</h5>
-            <a href="http://venturecatalysts.in/" target="_blank">
-              <img src="img/associations/venture-catalysts.png" width="300">
-            </a>
-          </div> -->
-                </div>
-            </div>
+          <p class="para2">
+            The startups go through multiple rounds of screening, which are
+            essentially brainstorming sessions at different levels and
+            face-to-face mentoring.
+          </p>
+          <p class="para3">
+            Finalists get to develop their ideas and hone their business plans
+            with a panel of mentors. Upstart standing apart on the pillars of
+            its unique structure marks its launch with UpStart Nationals.
+          </p>
         </div>
-        <br>
-        <br>
+      </div>
     </section>
-    <!-- <section id="results">
-        <div class="text-justify bg-orange ">
-            <div class="container bg-orange  ">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
-                            <div class="section-heading text-center"><br><br>
-                                <h2 class="h-bold font-oswald">&nbsp;&nbsp;Results</h2>
-                                <div class="divider-header"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-desc">
-                                        <h4 class="h-bold font-oswald centre-incubate">
-                                            Upstart Finale
-                                        </h4><br>
-                                        <p class=" centre-incubate">
-                                            <img class="results-fit" src="img/res.png"><br><br>
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
-                            <div class="section-heading text-center"><br><br>
-                                <h3 class="h-bold font-oswald">Nationals Results</h3>
-                                <div class="divider-header"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-6">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-desc">
-                                        <h4 class="h-bold font-oswald centre-incubate">
-                                            &nbsp;&nbsp;Bangalore
-                                        </h4><br>
-                                        <p class=" centre-incubate">
-                                            <img class="results-fit" src="img/nationals/bangaloreResults.jpg"><br><br>
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-desc">
-                                        <h4 class=" h-bold centre-incubate font-oswald">
-                                            &nbsp;&nbsp;Delhi
-                                        </h4><br>
-                                        <p class=" centre-incubate">
-                                            <img class="results-fit" src="img/nationals/delhiResults.jpg"><br><br>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+    <!-- Event Timeline -->
+    <section id="timeline" class="black">
+      <h2 class="heading1">Event Timeline</h2>
+      <div class="underline"></div>
+      <div class="container bg">
+        <div class="flex-center top">
+          <div class="date down">
+            <h1>2nd November 2022</h1>
+            <h1>Upstart Nationals Launch</h1>
+          </div>
+          <div class="date">
+            <h1>20th November 2022</h1>
+            <h1>Deadline for Online Registration</h1>
+          </div>
+          <div class="date down">
+            <h1>4th December 2022</h1>
+            <h1>Upstart'22 Hyderabad</h1>
+          </div>
+          <div class="date">
+            <h1>4th December 2022</h1>
+            <h1>Upstart'22 Bangalore</h1>
+          </div>
+          <div class="date down">
+            <h1>10th December 2022</h1>
+            <h1>Upstart'22 Delhi</h1>
+          </div>
         </div>
-
-    </section> -->
-    <section id="partners">
-        <div class="section-heading text-center">
-            <h2 class="h-bold font-oswald prevAss">Previous Associates</h2>
-            <div class="divider-header"></div>
+        <img class="horizontal" src="img/timeline.png" alt="" />
+        <img class="vertical" src="img/Vertical timeline.png" alt="" />
+        <div class="flex-center bottom">
+          <div class="date up">
+            <h1>9th December 2022</h1>
+            <h1>Mentorship Commencement</h1>
+          </div>
+          <div class="date">
+            <h1>10th December 2022</h1>
+            <h1>Mentorship Commencement</h1>
+          </div>
+          <div class="date">
+            <h1>11th December 2022</h1>
+            <h1>Mentorship Commencement</h1>
+          </div>
+          <div class="date up">
+            <h1>14th January 2023</h1>
+            <h1>Elevator Pitch and Onspot mentorship</h1>
+          </div>
+          <div class="date">
+            <h1>15th January 2023</h1>
+            <h1>Upstart FInale 2022</h1>
+          </div>
         </div>
-        <div class="row partner-div margintop-10">
-            <div class="col-md-3">
-                <img class="img-responsive" src="img/partners/deutsche-removebg-preview.png">
-            </div>
-            <div class="col-md-3">
-                <img class="img-responsive" src="img/partners/sbertc.png">
-            </div>
-            <div class="col-md-3">
-                <img class="img-responsive" src="img/partners/unicorn.png">
-            </div>
-            <div class="col-md-3">
-                <img class="img-responsive" src="img/partners/wadhwani.png">
-            </div>
-        </div>
-        <div class="row partner-div">
-            <div class="col-md-3">
-                <img class="img-responsive" src="img/partners/kae-capital.png">
-            </div>
-            <div class="col-md-3">
-                <img class="img-responsive" src="img/partners/nexus.png">
-            </div>
-            <div class="col-md-3">
-                <img class="img-responsive" src="img/partners/SIIC.png">
-            </div>
-            <div class="col-md-3">
-                <img class="img-responsive" src="img/partners/grex.png">
-            </div>
-        </div>
-        <div class="row partner-div marginbot-50">
-            <div class="col-md-3 col-md-offset-3">
-                <img class="img-responsive" src="img/partners/IvyCamp.png">
-            </div>
-            <div class="col-md-3">
-                <img class="img-responsive" src="img/partners/Reddy.png">
-            </div>
-        </div>
+      </div>
     </section>
-    <footer>
+
+    <!-- Upstart National -->
+    <section id="Nationals">
+      <h2 class="heading">Upstart National</h2>
+      <div class="underline"></div>
+      <div class="flex-center">
+        <div class="rightborder">
+          <div class="circle"></div>
+          <div class="rightline"></div>
+          <div class="circle"></div>
+        </div>
         <div class="container">
-            <div>
-                <img height="100px" src="img/ecelllogo.png" />
+          <h1>Hyderabad</h1>
+          <div class="delhi flex-center">
+            <div class="images">
+              <img src="img/nationals/hydrabad.jpg" alt="" />
+              <img src="img/nationals/Upstart Delhi(2).jpg" alt="" />
+              <!-- <br> -->
+              <img src="img/nationals/DSC_4077.JPG" alt="" />
+              <img src="img/nationals/coworks.jpg" alt="" />
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <p class="white-text"><span class="contact-name">Tanmay Gupta</span>
-                        <br> Overall Coordinator
-                        <br> +91-9991166118
-                        <br> tanmayg@iitk.ac.in
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <p class="white-text"><span class="contact-name">Reetika Tayal</span>
-                        <br> Head, Events
-                        <br> +91-9348362065
-                        <br> reetika@iitk.ac.in
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <p class="white-text"><span class="contact-name">Khushboo Sachdeva</span>
-                        <br> Overall Coordinator
-                        <br> +91-9650913301
-                        <br> khusbus@iitk.ac.in
-                    </p>
-                </div>
+            <div class="content">
+              <p>
+                Desire to give wings to your startup and soar high above the
+                giants? Upstart is just what you need. Upstart, a dream event
+                curated specifically for budding startups. This event stands out
+                from the
+              </p>
+              <br />
+
+              <p>
+                Desire to give wings to your startup and soar high above the
+                giants? Upstart is just what you need. Upstart, a dream event
+                curated specifically for budding startups. This event stands out
+                from the
+              </p>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="text-center">
-                        <div class="social-widget">
-                            <ul class="team-social">
-                                <li class="social-facebook">
-                                    <a href="https://facebook.com/ecelliitk" target="_blank">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li class="social-twitter">
-                                    <a href="https://twitter.com/ecelliitk" target="_blank">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="social-google">
-                                    <a href="https://www.youtube.com/channel/UCvxavCg0UhXq6oKkrBHc9zQ" target="_blank">
-                                        <i class="fa fa-youtube"></i>
-                                    </a>
-                                </li>
-                                <!-- <li class="social-insta">
-                  <a href="https://in.pinterest.com/ecelliitkanpur/" rel="tooltip" target="_blank">
-                    <i class="fa fa-pinterest"></i>
-                  </a>
-                </li> -->
-                                <li class="social-dribbble">
-                                    <a href="https://www.linkedin.com/company/entrepreneurship-cell-iit-kanpur"
-                                        target="_blank">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li class="social-insta">
-                                    <a href="https://www.instagram.com/ecelliitk/" target="_blank">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <p> &copy;Copyright- E-Cell IITK. All rights reserved. </p>
-                    </div>
-                </div>
+            <div class="ver">
+              <h1>4th December</h1>
             </div>
+          </div>
+          <h1>Banglore</h1>
+          <div class="delhi flex-center">
+            <div class="images">
+              <img src="img/nationals/bangalore.jpg" alt="" />
+              <img src="img/nationals/Upstart bangalore.jpg" alt="" />
+              <!-- <br> -->
+              <img src="img/nationals/DSC_4036.JPG" alt="" />
+              <img src="img/nationals/teahub.webp" alt="" />
+            </div>
+            <div class="content">
+              <p>
+                Desire to give wings to your startup and soar high above the
+                giants? Upstart is just what you need. Upstart, a dream event
+                curated specifically for budding startups. This event stands out
+                from the
+              </p>
+              <br />
+
+              <p>
+                Desire to give wings to your startup and soar high above the
+                giants? Upstart is just what you need. Upstart, a dream event
+                curated specifically for budding startups. This event stands out
+                from the
+              </p>
+            </div>
+            <div class="ver">
+              <h1>4th December</h1>
+            </div>
+          </div>
+          <h1>Delhi</h1>
+          <div class="delhi flex-center">
+            <div class="images">
+              <img src="img/india gate.webp" alt="" />
+              <img src="img/nationals/Upstart Delhi(1).jpg" alt="" />
+              <!-- <br> -->
+              <img src="img/nationals/DSC_4040.JPG" alt="" />
+              <img src="img/nationals/DSC_4055.JPG" alt="" />
+            </div>
+            <div class="content">
+              <p>
+                Desire to give wings to your startup and soar high above the
+                giants? Upstart is just what you need. Upstart, a dream event
+                curated specifically for budding startups. This event stands out
+                from the
+              </p>
+              <br />
+
+              <p>
+                Desire to give wings to your startup and soar high above the
+                giants? Upstart is just what you need. Upstart, a dream event
+                curated specifically for budding startups. This event stands out
+                from the
+              </p>
+            </div>
+            <div class="ver">
+              <h1>10th December</h1>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Upstart Edge  -->
+    <section class="Edge bg" id="Edge" style="padding-bottom: 0">
+      <h2 class="cols">so far this year ...</h2>
+      <div class="cols">
+        <div class="leftpart">
+          <img src="img/Upstart Edge.png" alt="" />
+        </div>
+        <div class="mid">
+          <h1>UPSTART Edge</h1>
+          <p>In collaboration with C3i Hub, IIT Kanpur</p>
+          <h1>CYBERSECURITY TRACK</h1>
+          <div class="group hide">
+            <div class="block color1">
+              <h1>2CR+</h1>
+              <h3>ON SPOT FUNDING</h3>
+            </div>
+            <div class="block color2">
+              <h1>15</h1>
+              <h3>Startups Participated</h3>
+            </div>
+            <div class="block color3">
+              <h1>7</h1>
+              <h3>VCs</h3>
+            </div>
+          </div>
+        </div>
+        <div class="right1">
+          <img src="img/india gate.webp" alt="" />
+          <img class="border" src="img/india gate.webp" alt="" />
+        </div>
+      </div>
+      <div class="cols group hide-lg">
+        <div class="block color1">
+          <h1>2CR+</h1>
+          <h3>ON SPOT FUNDING</h3>
+        </div>
+        <div class="block color2">
+          <h1>15</h1>
+          <h3>Startups Participated</h3>
+        </div>
+        <div class="block color3">
+          <h1>7</h1>
+          <h3>VCs</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Edge Delegates Section  -->
+    <section class="Delegates" style="padding-top: 0">
+      <h2 class="heading">Edge Delegates</h2>
+      <div class="underline"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="photo"><img src="img/ajay.png" alt="" /></div>
+            <br />
+            <h2><b>Dr. Ajay Sood (PSA)</b></h2>
+            <p>Principal Scientific Advisor</p>
+          </div>
+          <div class="col">
+            <div class="photo"><img src="img/chandrashekhar.png" alt="" /></div>
+            <br />
+            <h2><b>Dr. S. Chandrasekhar</b></h2>
+            <p>DST Secretary</p>
+          </div>
+          <div class="col">
+            <div class="photo"><img src="img/Anant.png" alt="" /></div>
+            <br />
+            <h2><b>Mr. Anant Krishnan</b></h2>
+            <p>Group CTO of TCS</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="photo"><img src="img/image.png" alt="" /></div>
+            <br />
+            <h2><b>Rishab Malik</b></h2>
+            <p>Venture Partner at Jungle Ventures Co-founder at Droom</p>
+          </div>
+          <div class="col">
+            <div class="photo"><img src="img/sandeep.png" alt="" /></div>
+            <br />
+            <h2><b>Dr. Sandeep Verma</b></h2>
+            <p>SERB Secretary</p>
+          </div>
+          <div class="col">
+            <div class="photo"><img src="img/ekta.png" alt="" /></div>
+            <br />
+            <h2><b>Ms. Ekta Kapoor</b></h2>
+            <p>Mission Director DST</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Incentives Section -->
+    <section class="incentive" id="incentive">
+      <h2 class="heading1">Incentives</h2>
+      <div class="underline"></div>
+      <div class="bg container">
+        <div class="mainrow">
+          <div class="colo1">
+            <h3>One on One Mentorship</h3>
+            <p>
+              1 month long one on one mentorship from industry professionals
+              (finale participants only)
+            </p>
+          </div>
+          <div class="colo1 middlecol1">
+            <h3>Get Incubated : SIDBI</h3>
+            <p>Incubation opportunity worth 20 lakh each at SIIC, IIT Kanpur</p>
+          </div>
+          <div class="colo1">
+            <h3>Networking and Funding Opportunity</h3>
+            <p>
+              On the spot funding opportunities from top Venture Capital Firms
+              (details about the VC Panel can be found below) , Networking
+              opportunities with dignitaries at E-Summit’22
+            </p>
+          </div>
+        </div>
+        <div class="mainrow bottomrow">
+          <div class="colo1">
+            <h3>Deskera</h3>
+            <p>
+              Deskera All-in One 1 Admin 5 Users CRM and Books, 15 employees
+              with Mobile app Free for 6 months (finale participants only) | 3
+              months (all interested participants), followed by 50% Off on
+              Renewal for next 1 year
+            </p>
+          </div>
+          <div class="colo1 middlecol2">
+            <h3>GitHub Enterprise</h3>
+            <p>
+              Each winning startup would receive 20 seats on GitHub enterprise
+              plan for 1 year (worth $5000 each approx).
+            </p>
+          </div>
+          <div class="colo1">
+            <h3>AWS Credits</h3>
+            <p>$5000 in AWS Activate credits to each winning startup</p>
+          </div>
+        </div>
+        <!-- <div class="mainrow">
+          <div class="colo1">
+            <h3>One on One Mentorship</h3>
+            <p>
+              1 month long one on one mentorship from industry professionals
+              (finale participants only)
+            </p>
+          </div>
+          <div class="colo1 middlecol1">
+            <h3>Get Incubated : SIDBI</h3>
+            <p>Incubation opportunity worth 20 lakh each at SIIC, IIT Kanpur</p>
+          </div>
+          <div class="colo1">
+            <h3>Networking and Funding Opportunity</h3>
+            <p>
+              On the spot funding opportunities from top Venture Capital Firms
+              (details about the VC Panel can be found below) , Networking
+              opportunities with dignitaries at E-Summit’22
+            </p>
+          </div>
+        </div>
+        <div class="mainrow bottomrow">
+          <div class="colo1">
+            <h3>Deskera</h3>
+            <p>
+              Deskera All-in One 1 Admin 5 Users CRM and Books, 15 employees
+              with Mobile app Free for 6 months (finale participants only) | 3
+              months (all interested participants), followed by 50% Off on
+              Renewal for next 1 year
+            </p>
+          </div>
+          <div class="colo1 middlecol2">
+            <h3>GitHub Enterprise</h3>
+            <p>
+              Each winning startup would receive 20 seats on GitHub enterprise
+              plan for 1 year (worth $5000 each approx).
+            </p>
+          </div>
+          <div class="colo1">
+            <h3>AWS Credits</h3>
+            <p>$5000 in AWS Activate credits to each winning startup</p>
+          </div>
+        </div> -->
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+    </section>
+
+    <!-- Competition Structure -->
+    <section class="black" id="Competition">
+      <h2 class="heading">Competition Structure</h2>
+      <div class="underline"></div>
+      <br />
+      <br />
+      <div class="container flex-center bg">
+        <div class="wrapper">
+          <div class="center-line"></div>
+          <div class="row row2">
+            <div class="icon hide">
+              <img src="img/User.png" alt="" />
+              <h1>Submission of Pitch Decks</h1>
+            </div>
+            <div class="cir2"></div>
+            <div class="timeline-content">
+              <div class="icon hide-lg">
+                <img src="img/User.png" alt="" />
+                <h1>Submission of Pitch Decks</h1>
+              </div>
+              <p>
+                All participating startups have to fill the
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfhMhdrg1jkCubRv86RYpLyJHS2txHIC528z4X5kdwgllMK_Q/viewform "
+                  target="_blank"
+                  >Google Form</a
+                >
+                and submit the Pitch Deck of their startups, preferably in the
+                specified format
+                <a
+                  href="https://drive.google.com/file/d/1lHPDI2P_W57XobxQhm7yLeHtD3MdVN3W/view"
+                  target="_blank"
+                  >Specified Format</a
+                >. The submissions will undergo a round of screening and 20*
+                startups will be shortlisted for each location (Bangalore,
+                Hyderabad, Delhi NCR) to participate in UpStart Nationals at the
+                various locations.
+              </p>
+            </div>
+          </div>
+          <div class="row row1">
+            <div class="timeline-content">
+              <div class="icon hide-lg">
+                <img src="img/Cap.png" alt="" />
+                <h1>7+5 Format Pitches</h1>
+              </div>
+              <p>
+                After the screening round, the shortlisted startups will get a
+                chance to present at UpStart Nationals in front of a panel of
+                Venture Capitalists (details about the VC Panel can be found
+                below) in 7+5 Pitching Format. This will be followed by
+                mentoring sessions of the shortlisted startups from this round.
+              </p>
+            </div>
+            <div class="cir1"></div>
+            <div class="icon hide">
+              <img src="img/Cap.png" alt="" />
+              <h1>7+5 Format Pitches</h1>
+            </div>
+          </div>
+          <div class="row row2">
+            <div class="icon hide">
+              <img src="img/Cap.png" alt="" />
+              <h1>Intensive Mentoring Sessions</h1>
+            </div>
+            <div class="cir2"></div>
+            <div class="timeline-content">
+              <div class="icon hide-lg">
+                <img src="img/Cap.png" alt="" />
+                <h1>Intensive Mentoring Sessions</h1>
+              </div>
+              <p>
+                Five* shortlisted startups will have subsequent, four weeks long
+                one to one mentoring and brainstorming sessions with a mentor.
+                Mentors will spend a considerable amount of time exclusively on
+                one startup. Startups get to discuss their ideas and business
+                plans to build a proper legal, operational and structural
+                framework. Along with invaluable advice from one of the most
+                experienced Entrepreneur-cum-Mentors in the country, startups
+                also get to enhance their network manifold with help from them.
+              </p>
+            </div>
+          </div>
+          <div class="row row1">
+            <div class="timeline-content">
+              <div class="icon hide-lg">
+                <img src="img/signal.png" alt="" />
+                <h1>Elevator Pitch</h1>
+              </div>
+              <p>
+                Following the mentoring sessions, the shortlisted startups will
+                be invited to E-Summit’22 at IIT Kanpur for the finale,
+                One-Minute Elevator Pitches. (Elevator pitches present the
+                overview of the company, and it needs to be succinct and
+                thoughtful, and to clearly articulate your business strategy).
+                Shortlisted startups will move to the Final Pitching round.
+              </p>
+            </div>
+            <div class="cir1"></div>
+            <div class="icon hide">
+              <img src="img/signal.png" alt="" />
+              <h1>Elevator Pitch</h1>
+            </div>
+          </div>
+          <div class="row row2">
+            <div class="icon hide">
+              <img src="img/shield.png" alt="" />
+              <h1>Final Pitch</h1>
+            </div>
+            <div class="cir2"></div>
+            <div class="timeline-content">
+              <div class="icon hide-lg">
+                <img src="img/shield.png" alt="" />
+                <h1>Final Pitch</h1>
+              </div>
+              <p>
+                Startups will have time till the next day to build upon their
+                Plan and modify their Pitch based on the inputs they received.
+                They will then participate in a 10-minute pitch (followed by
+                Q&As) to present their improved Business Plans before the
+                Upstart panel of judges. The start-ups will accordingly be given
+                their final positions based on the Judging Criteria**
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- judging criteria -->
+
+    <section class="judging" id="judging">
+      <h1>Judging Criteria</h1>
+      <div class="underline"></div>
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-item-header">Concept</div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <ul style="padding-left: 1rem">
+                <li>Originality of Idea.</li>
+                <li>
+                  Scalability, in terms of the potential for growth and
+                  replication of the venture.
+                </li>
+                <li>Well-conceived implementation plan and timetable.</li>
+                <li>Overall likelihood of achieving demonstrable results</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">Market</div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <ul style="padding-left: 1rem">
+                <li>
+                  Evidence of demand for the venture in the marketplace; market
+                  size and growth opportunity.
+                </li>
+                <li>Demonstrated knowledge of target market</li>
+                <li>Competitive analysis , SWOT analysis</li>
+                <li>
+                  Marketing Plan addresses (wherever applicable): positioning,
+                  pricing, advertising, promotion, packaging, timetable.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">Performance Benchmark</div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <ul style="padding-left: 1rem">
+                <li>
+                  Outline the development of systems to track, monitor and
+                  assess the performance milestones articulated in venture plan
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">Financial Aspects</div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <ul style="padding-left: 1rem">
+                <li>
+                  Fundability: The potential for the venture to receive
+                  financial support from additional investors/donors(including
+                  opportunities for funding from foundations, social venture
+                  funds, angel investors and venture capitalists)
+                </li>
+                <li>
+                  The rigor and feasibility of the venture's financial model and
+                  goals
+                </li>
+                <li>
+                  Potential for follow-on funding to grow the venture through
+                  self-sufficiency or profitability.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            Risk Assesments and Contigency Plans
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <ul style="padding-left: 1rem">
+                <li>
+                  Identify risk factors associated with the enterprise and
+                  external environment. Develop a plan for mitigating them.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            Demonstrated Leadership Ability
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <ul style="padding-left: 1rem">
+                <li>
+                  Quantify venture leader's ability to develop people, promote
+                  change and achieve results
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">Improvement</div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <ul style="padding-left: 1rem">
+                <li>
+                  Improvement in the business plan from original proposal, post
+                  the mentoring session, will be taken into consideration.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eligibility -->
+
+    <section class="eligibility" id="Eligibility">
+      <h1>Eligibility</h1>
+      <div class="underline"></div>
+      <div class="eligcols">
+        <div class="eligleft">
+          <img src="img/eligbg.png" alt="" />
+        </div>
+
+        <div class="eligright">
+          <p class="eligp">
+            UpStart is a competition meant only for early stage startups, we
+            have put the following criteria for entry into the Final Round:
+          </p>
+
+          <div class="info">
+            <img src="img/eligtick.png" alt="" />
+            <p class="eligcontp">
+              The Startup must have been incorporated at least, if not
+              registered for operations.
+            </p>
+          </div>
+          <div class="info">
+            <img src="img/eligtick.png" alt="" />
+            <p class="eligcontp">
+              The Startup’s date of incorporation should be on or after 1st
+              January 2019.
+            </p>
+          </div>
+          <div class="info">
+            <img src="img/eligtick.png" alt="" />
+            <p class="eligcontp">
+              The Startup should not have been VC funded. Startups financed
+              through Bootstrapping or Seed Funding by Angel Investors are
+              allowed to participate.
+            </p>
+          </div>
+          <div class="info">
+            <img src="img/eligtick.png" alt="" />
+            <p class="eligcontp">
+              Startup entries must be the original work of participants i.e.
+              team members competing must be the principal owners of the
+              venture.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Terms and Condition Section  -->
+    <section id="termsandconditions">
+      <h2 class="heading">Terms And Conditions</h2>
+      <div class="underline"></div>
+      <div class="Terms">
+        <div class="image">
+          <div class="dot1"></div>
+          <div class="upline"></div>
+          <img src="img/Terms.png" alt="" />
+          <div class="lowline"></div>
+          <div class="dot2"></div>
+        </div>
+        <div class="Conditions">
+          <div class="point one">
+            <h3>
+              NO offline submissions of the Pitch Decks for UpStart 2022-23 will
+              be accepted.
+            </h3>
+          </div>
+          <div class="point two">
+            <h3>
+              All the necessary documents should compulsorily be submitted along
+              with the Pitch deck.
+            </h3>
+          </div>
+          <div class="point three">
+            <h3>
+              Participants are only allowed to participate in only one of the
+              UpStart Nationals.
+            </h3>
+          </div>
+          <div class="point four">
+            <h3>
+              Participants are free to participate in other business plan
+              competitions as well.
+            </h3>
+          </div>
+          <div class="point five">
+            <h3>
+              Entries submitted after the deadline shall not be considered.
+            </h3>
+          </div>
+          <div class="point six">
+            <h3>
+              The resources and example Pitch Deck provided are only for
+              reference.
+            </h3>
+          </div>
+          <div class="point seven">
+            <h3>
+              All conflicts are subject to jurisdiction of Kanpur courts only.
+            </h3>
+          </div>
+          <div class="point eight">
+            <h3>The confidentiality of the entries/ ideas is guaranteed.</h3>
+          </div>
+          <div class="point nine">
+            <h3>Entries remain the property of their legal owner.</h3>
+          </div>
+          <div class="point ten">
+            <h3>
+              Entries need to have an innovative value (an innovative idea
+              provides a solution for a new need, or advancement compared to
+              existing products, services or technologies).
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section  -->
+
+    <section id="contactus">
+      <div class="cscontainer">
+        <div class="contactinfo">
+          <div class="cinfodiv">
+            <h2>Contact Info</h2>
+            <ul class="csinfo">
+              <li>
+                <span><img src="img/location.png" alt="" /></span>
+                <span>
+                  Room No G2, <br />
+                  Imagineering Laboratory <br />
+                  Gate No. 4 Academic Area Near DOAA canteen <br />
+                  IIT Kanpur- 208016
+                </span>
+              </li>
+
+              <li>
+                <span><img src="img/mail.png" alt="" /></span>
+                <span> events@ecelliitk.com </span>
+              </li>
+
+              <li>
+                <span><img src="img/call.png" alt="" /></span>
+                <span> +91-9799011380 </span>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="sci">
+            <li>
+              <a href="https://www.facebook.com/ecelliitk" target="_blank"
+                ><img src="img/1.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/ecelliitk" target="_blank"
+                ><img src="img/2.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ecelliitk/" target="_blank"
+                ><img src="img/3.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCvxavCg0UhXq6oKkrBHc9zQ"
+                target="_blank"
+                ><img src="img/4.png" alt="" style="width: 35px"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/entrepreneurship-cell-iit-kanpur/mycompany/"
+                target="_blank"
+                ><img src="img/5.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="contactform">
+          <h2>Send a Message</h2>
+          <div class="formbox">
+            <div class="inputbox w50">
+              <input type="text" required />
+              <span>First Name</span>
+            </div>
+
+            <div class="inputbox w50">
+              <input type="text" required />
+              <span>Last Name</span>
+            </div>
+
+            <div class="inputbox w50">
+              <input type="email" required />
+              <span>Email Address</span>
+            </div>
+
+            <div class="inputbox w50">
+              <input type="text" required />
+              <span>Mobile Number</span>
+            </div>
+
+            <div class="inputbox w100">
+              <textarea required></textarea>
+              <span>Write your message here...</span>
+            </div>
+
+            <div class="inputbox w100">
+              <input type="submit" value="Send" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="dividefooter">
+        <div class="part1">
+          <h1>Quick Links</h1>
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#Nationals">Nationals</a>
+          <a href="#Edge">Upstart Edge</a>
+          <a href="#incentive">Incentives</a>
+          <a href="#competition">Competition Structure</a>
+          <a href="#judging">Judging Criterion</a>
+          <a href="#Eligibility">Eligibility</a>
+          <!-- <a href="#timeline">Frequently Asked Questions</a> -->
+          <a href="#termsandconditions">Terms and Conditions</a>
+          <a href="#contactus">Contact Us</a>
+        </div>
+        <div class="part2">
+          <h1>Entrepreneurship Cell - IIT Kanpur</h1>
+          <div class="team">
+            <div class="name">
+              <h3>AMAN AGARWAL</h3>
+              <p>Overall Coordinator</p>
+              <p><a href="tel:7004356761">7004356761</a></p>
+              <p>
+                <a href="mailto:amanag20@iitk.ac.in">amanag20@iitk.ac.in</a>
+              </p>
+            </div>
+            <div class="name">
+              <h3>SANMATI PANDEL</h3>
+              <p>Overall Coordinator</p>
+              <p><a href="tel:8080926316">8080926316</a></p>
+              <p>
+                <a href="mailto:sanmatip20@iitk.ac.in">sanmatip20@iitk.ac.in</a>
+              </p>
+            </div>
+          </div>
+          <div class="team">
+            <div class="name">
+              <h3>SABAL JAIN</h3>
+              <p>Manager Events</p>
+              <p><a href="tel:7986440345">7986440345</a></p>
+              <p>
+                <a href="mailto:sabalj20@iitk.ac.in">sabalj20@iitk.ac.in</a>
+              </p>
+            </div>
+            <div class="name">
+              <h3>CHHAVI AGARWAL</h3>
+              <p>Manager Events</p>
+              <p><a href="tel:+919799011830">+91-9799011830</a></p>
+              <p>
+                <a href="mailto:harshsar20@iitk.ac.in">harshsar20@iitk.ac.in</a>
+              </p>
+            </div>
+          </div>
+
+          <h1 style="text-align: center">Follow Us</h1>
+          <div class="part3">
+            <li>
+              <a href="https://www.facebook.com/ecelliitk" target="_blank"
+                ><img src="img/1.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/ecelliitk" target="_blank"
+                ><img src="img/2.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ecelliitk/" target="_blank"
+                ><img src="img/3.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCvxavCg0UhXq6oKkrBHc9zQ"
+                target="_blank"
+                ><img src="img/4.png" alt="" style="width: 73px"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/entrepreneurship-cell-iit-kanpur/mycompany/"
+                target="_blank"
+                ><img src="img/5.png" alt=""
+              /></a>
+            </li>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      <br /><br />
+      <p style="text-align: center; padding-bottom: 10px">
+        Copyright @ 2022 All right reserved | Made with Love
+      </p>
     </footer>
 
-
-    <!-- Core JavaScript Files -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/custom.js"></script>
-    <!-- Resource jQuery -->
-
-</body>
-
+    <script src="JS/resp.js"></script>
+  </body>
 </html>
