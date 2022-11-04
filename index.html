@@ -34,17 +34,36 @@
 
     <!-- ------Home------ -->
     <nav class="navbar background navback hnavresp">
-      <a href="/"><img src="img/logo.png" alt="" class="src" style="width: 55px;
-        margin-top: 24px;"/></a>
-      <a href="index.html"
-        ><img
-          src="img/UpstartLogo2-01 (2).png"
-          alt=""
-          style="margin-right: 119px;
-          width: 150px;
-          margin-top: 15px;"
-          class="src"
-      /></a>
+      <div
+        style="
+          display: flex;
+          width: 300px;
+          align-items: center;
+          justify-content: space-between;
+          margin-left: 10px;
+          height: min-content;
+          position: relative;
+          top: 5px;
+        "
+      >
+        <a href="https://ecelliitk.org" style="width: 20%"
+          ><img
+            src="img/logo.png"
+            alt=""
+            class="src"
+            style="width: 100%; object-fit: contain"
+        /></a>
+        <a
+          href="https://ecelliitk.org/upstart"
+          style="width: 70%; object-fit: contain"
+          ><img
+            src="img/UpstartLogo2-01 (2).png"
+            alt=""
+            class="src"
+            style="width: 100%; object-fit: contain"
+        /></a>
+      </div>
+
       <div class="navlinks navlist vclassresp">
         <ul>
           <div class="nav-close-btn"></div>
@@ -54,7 +73,7 @@
           <li><a href="#Nationals">Nationals</a></li>
           <li><a href="#Edge">Edge</a></li>
           <li><a href="#incentive">Incentives</a></li>
-          <li><a href="/faq.html">FAQ</a></li>
+          <li><a href="faq.html">FAQ</a></li>
           <li class="navbutton">
             <a href="https://forms.gle/MJec73BVUh8zCyJe7" target="_blank"
               >Register</a
@@ -370,7 +389,7 @@
     </section>
 
     <!-- Incentives Section -->
-    <section class="incentive" id="incentive">
+    <section class="incentive" id="incentive" style="padding-bottom: 0">
       <h2 class="heading1">Incentives</h2>
       <div class="underline"></div>
       <div class="bg container">
@@ -522,7 +541,7 @@
               </p>
             </div>
             <div class="cir1"></div>
-            <div class="icon hide" style="height: 94px;">
+            <div class="icon hide" style="height: 94px">
               <img src="img/idea.png" alt="" />
               <h1>7+5 Format Pitches</h1>
             </div>
@@ -574,7 +593,7 @@
           <div class="row row2">
             <div class="icon hide">
               <img src="img/shield.png" alt="" />
-              <h1 style="padding-right: 103px;">Final Pitch</h1>
+              <h1 style="padding-right: 103px">Final Pitch</h1>
             </div>
             <div class="cir2"></div>
             <div class="timeline-content">
@@ -906,27 +925,22 @@
           <h2>Send a Message</h2>
           <div class="formbox">
             <div class="inputbox w50">
-              <input type="text" required />
-              <span>First Name</span>
+              <input type="text" name="Name" id="Name" required />
+              <span>Name</span>
             </div>
 
             <div class="inputbox w50">
-              <input type="text" required />
-              <span>Last Name</span>
-            </div>
-
-            <div class="inputbox w50">
-              <input type="email" required />
+              <input type="email" name="Email" id="Email" required />
               <span>Email Address</span>
             </div>
 
-            <div class="inputbox w50">
-              <input type="text" required />
-              <span>Mobile Number</span>
+            <div class="inputbox w100">
+              <input type="number" name="Subject" id="Subject" required />
+              <span>Subject</span>
             </div>
 
             <div class="inputbox w100">
-              <textarea required></textarea>
+              <textarea name="Message" id="Message" required></textarea>
               <span>Write your message here...</span>
             </div>
 
@@ -937,6 +951,13 @@
         </div>
       </div>
     </section>
+
+    <div id="toast">
+      <div id="img">
+        <i class="fa-solid fa-circle-check" style="color: white"></i>
+      </div>
+      <div id="desc">Response Saved Successfully</div>
+    </div>
 
     <footer>
       <div class="dividefooter">
@@ -1037,5 +1058,51 @@
     </footer>
 
     <script src="JS/resp.js"></script>
+    <script>
+      function launch_toast() {
+        var x = document.getElementById("toast");
+        x.className = "show";
+        setTimeout(function () {
+          x.className = x.className.replace("show", "");
+        }, 5000);
+      }
+      function postToGoogle() {
+        var field1 = $("#Name").val();
+        var field2 = $("#Email").val();
+        var field3 = $("#Subject").val();
+        var field4 = $("#Message").val();
+
+        $.ajax({
+          url: "https://script.google.com/macros/s/AKfycbwvuKPjYy4JafSFie72u9bamxv_5GdwKZEN1IC1zjPuw0qgYjw0oVx_aiyHPKkBkB50/exec",
+          data: {
+            Name: field1,
+            Email: field2,
+            Subject: field3,
+            Message: field4,
+          },
+          type: "POST",
+          dataType: "json",
+          success: function (d) {
+            console.log(d);
+            document.getElementById("desc").textContent =
+              "Response Saved Successfully";
+            document.getElementById("img").innerHTML = `
+              <i class="fa-solid fa-circle-check" style="color: white"></i>
+            `;
+            launch_toast();
+          },
+          error: function (x, y, z) {
+            document.getElementById("desc").textContent =
+              "Response could not be saved";
+            document.getElementById("img").innerHTML = `
+              <i class="fa-solid fa-xmark" style="color: white"></i>
+            `;
+            $("#contact-form").trigger("reset");
+          },
+        });
+        $("#contact-form").trigger("reset");
+        return false;
+      }
+    </script>
   </body>
 </html>

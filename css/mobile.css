@@ -1,14 +1,9 @@
 /* Home Section  */
-nav img {
-  margin: 0px 10px;
-  margin-left: 10px;
-}
-
-.main{
+.main {
   flex-direction: column-reverse;
 }
 
-.right{
+.right {
   max-width: 90%;
 }
 
@@ -59,6 +54,7 @@ nav img {
 .Edge {
   height: 0px;
 }
+
 .Edge h2 {
   font-size: 36px;
   margin: 4px;
@@ -82,32 +78,40 @@ nav img {
   font-size: 28px;
   margin: 0
 }
+
 .mid p {
   font-size: 20px;
   margin: 20px 0;
 }
+
 .bg {
   min-height: 60vh;
 }
+
 .group {
   margin-top: 45px;
 }
+
 .hide {
   display: none;
 }
+
 .hide-lg {
   display: flex !important;
 }
+
 .block {
   border-radius: 24px;
   width: 110px;
   height: 120px;
 }
+
 .block h1 {
   padding: 10px 0;
   font-size: 20px;
   letter-spacing: 1px;
 }
+
 .block h3 {
   font-size: 17px;
 }
@@ -124,46 +128,50 @@ nav img {
   flex-direction: column;
   /* width: 100%; */
 }
+
 .row .col {
   width: 80%;
 }
+
 .heading1 {
   font-size: 40px;
 }
 
-.photo img{
+.photo img {
   width: 50%;
 }
 
 /* Timeline Section  */
-#timeline .container .flex-center{
+#timeline .container .flex-center {
   flex-direction: column;
-} 
+}
 
-#timeline .container .vertical{
+#timeline .container .vertical {
   display: block;
   width: 30%;
 }
-#timeline .container .horizontal{
+
+#timeline .container .horizontal {
   display: none;
 }
 
-#timeline .container{
+#timeline .container {
   flex-direction: row;
 }
 
-.date h1{
+.date h1 {
   font-size: 13px;
 }
 
-.down{
+.down {
   margin-bottom: 0%;
 }
-.up{
+
+.up {
   margin-top: 0%;
 }
 
-.date{
+.date {
   margin: 30px 11px;
 }
 
@@ -173,19 +181,20 @@ nav img {
   padding-top: 40px;
 }
 
-#Nationals .flex-center .container h1{
+#Nationals .flex-center .container h1 {
   font-size: 40px;
   margin-top: 50px;
 }
 
-#Nationals .flex-center .container .flex-center{
+#Nationals .flex-center .container .flex-center {
   flex-direction: column;
 }
 
-.rightborder{
+.rightborder {
   margin: 0px 10px;
 }
-.circle{
+
+.circle {
   display: none;
 }
 
@@ -193,27 +202,28 @@ nav img {
   right: 12.2% !important;
 } */
 
-.rightline{
+.rightline {
   display: none
 }
 
 
-.content{
+.content {
   width: 80%;
   margin-right: 0%;
 }
-.content p{
+
+.content p {
   font-size: 16px;
   margin: 5px 0;
 }
 
-.ver{
+.ver {
   width: 100%;
   margin-right: 0%;
   transform: rotate(270deg);
 }
 
-#Nationals .flex-center .container .delhi .ver h1{
+#Nationals .flex-center .container .delhi .ver h1 {
   margin: 10px 29px;
   font-size: 32px;
   letter-spacing: 4px;
@@ -225,60 +235,69 @@ nav img {
   display: flex;
   flex-direction: column;
 }
+
 .colo1 {
   width: 88%;
 }
+
 .box {
   width: 60%;
 }
+
 .eligcols {
   flex-direction: column;
 }
+
 .eligleft {
   width: 80%;
   margin: auto;
 }
 
-.eligp{
+.eligp {
   font-size: 18px;
   padding: 0 18px;
 }
 
 
 /* Competition Structure  */
-.wrapper .center-line{
+.wrapper .center-line {
   left: 7.5%;
   height: 100%;
 }
 
-.icon{
+.icon {
   flex-direction: column;
   width: 100%;
 }
 
-.wrapper .row{
+.wrapper .row {
   margin: 30px 0 3px 60px;
   flex-direction: row;
 }
-.wrapper .row1{
+
+.wrapper .row1 {
   flex-direction: row-reverse;
 }
-.wrapper .row2 .icon h1{
+
+.wrapper .row2 .icon h1 {
   font-size: 15px;
   text-align: center;
   margin: 15px 0;
 }
-.wrapper .row2 .icon img{
+
+.wrapper .row2 .icon img {
   margin: auto;
   width: 23%;
   object-fit: contain;
 }
-.wrapper .row1 .icon img{
+
+.wrapper .row1 .icon img {
   margin: auto;
   width: 24%;
   object-fit: contain;
 }
-.wrapper .row1 .icon h1{
+
+.wrapper .row1 .icon h1 {
   margin: 15px 0;
   text-align: center;
   font-size: 15px;
@@ -287,29 +306,31 @@ nav img {
 .wrapper .row .cir2 {
   right: 44px;
 }
+
 .wrapper .row .cir1 {
   right: 44px;
 }
 
-.wrapper .row .timeline-content{
+.wrapper .row .timeline-content {
   width: 90%;
   padding: 30px;
   margin-right: 5%;
 }
 
-.row1 .timeline-content::before{
-  left: -36px;
-}
-.row2 .timeline-content::before{
+.row1 .timeline-content::before {
   left: -36px;
 }
 
-.timeline-content p{
+.row2 .timeline-content::before {
+  left: -36px;
+}
+
+.timeline-content p {
   line-height: 22px;
   font-size: 14px;
 }
 
-.box{
+.box {
   border-radius: 25px;
   width: 70%;
   padding: 0px 30px;
@@ -318,76 +339,92 @@ nav img {
 }
 
 /* Terms And Conditions  */
-.Terms{
+.Terms {
   flex-direction: column;
 }
+
 #termsandconditions h1 {
   font-size: 28px;
 }
-.dot1{
-  display: none;
-}
-.dot2{
-  display: none;
-}
-.upline{
-  display: none;
-}
-.lowline{
+
+.dot1 {
   display: none;
 }
 
-.Terms .image img{
+.dot2 {
+  display: none;
+}
+
+.upline {
+  display: none;
+}
+
+.lowline {
+  display: none;
+}
+
+.Terms .image img {
   border: none;
   border-radius: 0;
   width: 85%;
 }
 
-.point h3{
+.point h3 {
   font-size: 15px;
 }
-.Conditions .point{
+
+.Conditions .point {
   padding: 8px 15px;
   border-radius: 20px;
   margin-top: 15px;
 }
-.one{
+
+.one {
   right: 2%;
   margin-left: 15px;
 }
-.two{
+
+.two {
   right: 2%;
   margin-left: 15px;
 }
-.three{
+
+.three {
   right: 2%;
   margin-left: 15px;
 }
-.four{
+
+.four {
   right: 2%;
   margin-left: 15px;
 }
-.five{
+
+.five {
   right: 2%;
   margin-left: 15px;
 }
-.six{
+
+.six {
   right: 2%;
   margin-left: 15px;
 }
-.seven{
+
+.seven {
   right: 2%;
   margin-left: 15px;
 }
-.eight{
+
+.eight {
   right: 2%;
   margin-left: 15px;
 }
-.nine{
+
+.nine {
   right: 2%;
   margin-left: 15px;
 }
-.ten{
+
+.ten {
   right: 2%;
   margin-left: 15px;
 }
@@ -400,18 +437,19 @@ nav img {
   padding-top: 0px;
 }
 
-.part1 a{
+.part1 a {
   text-align: center;
 }
 
-.part2 h1{
+.part2 h1 {
   font-size: 23px;
 }
 
-.part2 .team .name h3{
+.part2 .team .name h3 {
   font-size: 17px;
 }
-.part2 .team .name p{
+
+.part2 .team .name p {
   font-size: 14px;
 }
 
