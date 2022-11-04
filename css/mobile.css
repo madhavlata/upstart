@@ -131,6 +131,10 @@ nav img {
   font-size: 40px;
 }
 
+.photo img{
+  width: 50%;
+}
+
 /* Timeline Section  */
 #timeline .container .flex-center{
   flex-direction: column;
@@ -146,11 +150,10 @@ nav img {
 
 #timeline .container{
   flex-direction: row;
-  margin-left: 10%;
 }
 
 .date h1{
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .down{
@@ -161,7 +164,7 @@ nav img {
 }
 
 .date{
-  margin: 23px 2px;
+  margin: 30px 11px;
 }
 
 /* Upstart National  */
@@ -236,6 +239,11 @@ nav img {
   margin: auto;
 }
 
+.eligp{
+  font-size: 18px;
+  padding: 0 18px;
+}
+
 
 /* Competition Structure  */
 .wrapper .center-line{
@@ -258,20 +266,20 @@ nav img {
 .wrapper .row2 .icon h1{
   font-size: 15px;
   text-align: center;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 .wrapper .row2 .icon img{
   margin: auto;
-  width: 60%;
+  width: 23%;
   object-fit: contain;
 }
 .wrapper .row1 .icon img{
   margin: auto;
-  width: 80%;
+  width: 24%;
   object-fit: contain;
 }
 .wrapper .row1 .icon h1{
-  margin: 20px 0;
+  margin: 15px 0;
   text-align: center;
   font-size: 15px;
 }
@@ -298,6 +306,7 @@ nav img {
 
 .timeline-content p{
   line-height: 22px;
+  font-size: 14px;
 }
 
 .box{
@@ -387,6 +396,11 @@ nav img {
 
 .dividefooter {
   flex-direction: column;
+  text-align: center;
+  padding-top: 0px;
+}
+
+.part1 a{
   text-align: center;
 }
 

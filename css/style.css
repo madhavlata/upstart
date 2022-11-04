@@ -139,6 +139,10 @@ nav img {
   font-family: "Oswald", sans-serif;
 }
 
+.navlinks ul li a.active{
+  color: #00d1a0;
+}
+
 .navlinks ul li::after {
   content: "";
   width: 0%;
@@ -263,7 +267,7 @@ body {
 
 .line {
   width: 33px;
-  background-color: white;
+  background-color: black;
   height: 4px;
   margin: 3px 3px;
 }
@@ -489,20 +493,20 @@ body {
 }
 
 .date {
-  margin: 8px 15px;
+  margin: 8px 45px;
   font-size: 14px;
 }
 
 .down {
   margin-bottom: -17%;
-  margin-left: -85px;
-  margin-right: 10px;
+  margin-left: -44px;
+  margin-right: 4px;
 }
 
 .up {
   margin-top: -21%;
-  margin-left: 18px;
-  margin-right: 11px;
+  margin-left: -76px;
+  margin-right: -93px;
 }
 
 /* -------Upstart National------- */
@@ -671,7 +675,7 @@ body {
 
 .wrapper .row1 .icon img {
   margin-right: 7px;
-  margin-left: 97%;
+  margin-left: 78%;
 }
 
 .wrapper .row1 .icon h1 {
@@ -978,37 +982,37 @@ body {
 }
 
 .two {
-  right: 20%;
+  right: 16%;
 
 }
 
 .three {
-  right: 10%;
+  right: 8%;
 }
 
 .four {
-  right: 6%;
+  right: 3%;
 
 }
 
 .five {
-  right: 1%;
+  right: 0%;
 }
 
 .six {
-  right: 1%;
+  right: 0%;
 }
 
 .seven {
-  right: 6%;
+  right: 3%;
 }
 
 .eight {
-  right: 10%;
+  right: 8%;
 }
 
 .nine {
-  right: 20%;
+  right: 16%;
 }
 
 .ten {
@@ -1128,9 +1132,6 @@ hr {
     transition: 0.3s ease;
   }
 
-  .navlinks ul li a {
-    color: black;
-  }
 
   .nav-close-btn {
     position: absolute;
