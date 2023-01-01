@@ -59,6 +59,47 @@ window.addEventListener("scroll", () => {
   });
 });
 
+const left = document.querySelector(".arrow-left");
+const right = document.querySelector(".arrow-right");
+const slider = document.querySelector(".slider");
+
+const indicatorParent = document.querySelector(".control ul");
+const indicators = document.querySelectorAll(".control li");
+index = 0;
+
+indicators.forEach((indicator, i) => {
+  indicator.addEventListener("click", () => {
+    document.querySelector(".control .selected").classList.remove("selected");
+    indicator.classList.add("selected");
+    slider.style.transform = "translateX(" + i * -33.33 + "%)";
+    index = i;
+  });
+});
+
+left.addEventListener("click", function () {
+  slider.style.transition = "all 0.4s ease-in-out";
+  index = index > 0 ? index - 1 : index - 1 + 3;
+  document.querySelector(".control .selected").classList.remove("selected");
+  indicatorParent.children[index].classList.add("selected");
+  slider.style.transform = "translateX(" + index * -33.33 + "%)";
+});
+
+right.addEventListener("click", function () {
+  slider.style.transition = "all 0.4s ease-in-out";
+  index = index < 3 - 1 ? index + 1 : index + 1 - 3;
+  document.querySelector(".control .selected").classList.remove("selected");
+  indicatorParent.children[index].classList.add("selected");
+  slider.style.transform = "translateX(" + index * -33.33 + "%)";
+});
+
+setInterval(function () {
+  slider.style.transition = "all 0.4s ease-in-out";
+  index = index < 3 - 1 ? index + 1 : index + 1 - 3;
+  document.querySelector(".control .selected").classList.remove("selected");
+  indicatorParent.children[index].classList.add("selected");
+  slider.style.transform = "translateX(" + index * -33.33 + "%)";
+}, 5000);
+
 // Scroll Button
 const Scrollbtn = document.querySelector(".scroll");
 

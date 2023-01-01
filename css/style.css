@@ -1372,7 +1372,6 @@ hr {
 
 .slider {
   background: white;
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -1478,4 +1477,148 @@ hr {
   .panelists .row {
     margin-bottom: 0;
   }
+}
+
+/* ===================================================================
+  *  14. testimonials - (_layout.scss)
+  *
+  * ------------------------------------------------------------------- */
+#testimonials {
+  background: white;
+  padding: 12rem 0 7.8rem;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.carousel {
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+}
+
+.slider {
+  display: flex;
+  height: 100%;
+  width: 300%;
+  margin: 15px 0;
+}
+
+.slider section {
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 0;
+}
+
+.corners {
+  box-shadow: 0 0 22px rgb(51 51 51 / 43%);
+  z-index: 1000;
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrow i {
+  font-size: 70px;
+  -webkit-user-select: none;
+  color: #416be4;
+}
+
+.arrow-left {
+  left: 10px;
+}
+
+.arrow-right {
+  right: 10px;
+}
+
+.control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  transform: translate(-50%);
+}
+
+.control ul li {
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.control ul li.selected {
+  background: transparent;
+}
+
+
+.testimonials h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 40px;
+}
+
+#testimonial img {
+  object-fit: contain;
+}
+
+.para {
+  font-size: large;
+  margin-bottom: 2%;
+  width: 90%;
+}
+
+.quote {
+  position: absolute;
+  left: 30px;
+  object-fit: contain;
+  height: 20px !important;
+  width: 20px !important;
+  padding: 0 !important;
+}
+
+.quote2 {
+  position: absolute;
+  right: 30px;
+  object-fit: contain;
+  height: 20px !important;
+  width: 20px !important;
+  padding: 0 !important;
+}
+
+.corners {
+  position: relative;
+  text-align: center;
+  display: flex;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 3rem;
+  width: 80%;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 }
