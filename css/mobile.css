@@ -147,8 +147,12 @@
 }
 
 #timeline .container .vertical {
+  /* display: block;
+  width: 30%; */
   display: block;
-  width: 30%;
+  /* width: 30%; */
+  width: 100vw;
+  transform: scale(1.9,1.8);
 }
 
 #timeline .container .horizontal {

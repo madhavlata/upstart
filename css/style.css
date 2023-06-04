@@ -326,7 +326,7 @@ body {
   width: 95%;
   margin: auto;
   padding-top: 40px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .hide-lg {
@@ -1441,8 +1441,8 @@ hr {
 
 .panelists img {
   width: 80%;
-  border-radius: 50%;
-  margin-bottom: 20px;
+  /* border-radius: 50%; */
+  /* margin-bottom: 20px; */
 }
 
 .panelists .row {
@@ -1456,8 +1456,12 @@ hr {
   margin: 0 10px;
   border-radius: 20px;
   width: 25%;
+  height: 271px;
   box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
   border-bottom: 3px solid #066b23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .panelists .name {
@@ -1621,4 +1625,10 @@ hr {
   height: 100px;
   width: 100px;
   border-radius: 50%;
+}
+.horizontal{
+  height: 80vh;
+    /* border: 2px solid white; */
+    width: 90vw;
+    transform: scale(1.3,2.6);
 }
