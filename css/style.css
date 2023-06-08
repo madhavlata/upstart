@@ -14,7 +14,7 @@
 }
 
 section {
-  padding: 100px 0;
+  padding: 110px 0;
 }
 
 a {
@@ -433,9 +433,15 @@ body {
 .heading1 {
   font-size: 50px;
   text-align: center;
-  padding-top: 30px;
+  /* padding-top: 53vw; */
   color: white;
+  transition: all 1s ease-in-out;
 }
+/* @media screen and (max-width:900px) {
+  .heading1{
+    padding-top:40vw;
+  }
+} */
 
 .underline {
   width: 97px;
@@ -512,6 +518,80 @@ body {
 .heading {
   font-size: 50px;
   text-align: center;
+}
+.heading-in-mobile{
+  font-size: 50px;
+  text-align: center;
+}
+@media screen and (max-width:900px) {
+  .heading-in-mobile{
+    padding-top: 50vh;
+  }
+}
+
+#upstartPreviousYear{
+  width: 100%;
+}
+#upstartPreviousYearDelhi{
+  display: none;
+}
+#upstartPreviousYearBanglore{
+  display: none;
+}
+#upstartPreviousYearHyderabad{
+  display: none;
+}
+.upstart-past-year{
+  display: none;
+  font-family: "Vujahday Script", cursive;
+  padding: 10px;
+}
+.past-description-box{
+  display: none;
+}
+
+
+
+@media screen and (max-width:900px){
+  #upstartPreviousYear{
+    display: none;
+  }
+  .upstart-past-year{
+    display: inline;
+    font-family: "Vujahday Script", cursive;
+  }
+  .past-description{
+    flex-wrap: wrap;
+  }
+  /* #Nationals img{
+    width: 80%;
+  } */
+  .past-description-box{
+    width: 250px;
+    padding: 20px;
+    display: block;
+
+  }
+  #upstartPreviousYearDelhi{
+    display: block;
+    width: 90%;
+
+  }
+  #upstartPreviousYearBanglore{
+    display: block;
+    width: 90%;
+  }
+  #upstartPreviousYearHyderabad{
+    display: block;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:450px){
+  .past-description-box{
+    width: 126px;
+    padding: 5px;
+  }
 }
 
 #Nationals .flex-center {
