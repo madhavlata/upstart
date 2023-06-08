@@ -34,7 +34,7 @@ document.addEventListener('scroll', function () {
         box.style.transform = "translateY(0px)";
         video.style.opacity = "0";
         heading.style.padding = "10vw 0 0 0"
-        console.log(heading)
+        // console.log(heading)
         // boxMid.style = "height: 00px";
     }
     // message.textContent = messageText;
