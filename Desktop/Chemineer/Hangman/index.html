@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Challenge</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css
+    "
+    />
+
+    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js
+    "></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="./images/logo.jpg" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >History</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contests</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Leaderboard
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Daily</a></li>
+                <li><a class="dropdown-item" href="#">Weekly</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">All Time</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+          </ul>
+          <script>
+            //GOOGLE SEARCH
+            //Enter domain of site to search.
+            var domainroot = "";
+            function Gsitesearch(curobj) {
+              curobj.q.value = "" + domainroot + " " + curobj.qfront.value;
+            }
+          </script>
+          <form
+            class="search navbar-form navbar-right"
+            action="http://www.google.com/search"
+            method="get"
+            role="search"
+            onSubmit="Gsitesearch(this)"
+          >
+            <div class="input-group">
+              <input name="q" type="hidden" />
+              <input
+                class="form-control"
+                name="qfront"
+                type="search"
+                required
+                class="searchField"
+                placeholder="Google Site Search"
+                maxlength="50"
+              />
+              <span class="input-group-btn">
+                <button type="submit" class="btn btn-outline-success">
+                  <span class="glyphicon glyphicon-search">Search</span>
+                </button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--<nav class="navbar navbar-expand-custom navbar-mainbg">
+    
+     <i class="fas fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+            <div class="hori-selector"><div class="left"></div><div class="right"></div></div> -->
+    <!-- <li class="logo">
+                    <img id="logo" src="./images/logo.jpg">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Leaderboard</a> -->
+    <!-- </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Contests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Contacts</a>
+                </li>
+            </ul>
+            <div class="login-container">
+                <form action="/action_page.php">
+                  <button class="login-button" type="submit">Login</button>
+                </form>
+            </div> 
+             -->
+    <!-- </div> -->
+    <!-- </nav>
+  -->
+    <div class="floatright">
+      Wrong Guesses: <span id="mistakes">0</span> of <span id="maxWrong"></span>           
+    </div>
+
+    <div class="maingrid">
+      <div class="hangman">
+        <img src="./images/0.jpg" id="hangmanPic" />
+      </div>
+
+      <div class="game">
+        <p id="wordSpotlight">The word to be guessed goes here</p>
+        
+      </div>
+
+      <div class="sidebar-right">
+        
+          <button class="hints btn-info" onclick="showHint()"><span id="hints">&#63;</span> </button>
+          
+          <hr>
+          <button class="settings btn-info"><span id="settings">&#9881;</span></button>
+        
+      </div>
+      
+      <!-- <h1>HTML + CSS Keyboard</h1> -->
+      <div class="container" id="keyboard"></div>
+    </div>
+
+    <button class="btn btn-info" onClick="reset()">Reset</button>
+    <div class="hintsimage">
+      <img id='hintsimage' src="./images/hint.jpg" alt="">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
